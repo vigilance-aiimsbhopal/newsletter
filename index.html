@@ -38,7 +38,7 @@ body[data-lang=en] .ed[lang=en], body[data-lang=hi] .ed[lang=hi]{display:block}
 
 /* A4 pages */
 .page{width:210mm;height:297mm;margin:10mm auto;background:var(--paper);box-shadow:0 2px 14px rgba(20,24,60,.15);position:relative;overflow:hidden;padding:11mm 13mm 14mm}
-.ed[lang=en] .page{font-size:10.1pt;line-height:1.42}
+.ed[lang=en] .page{font-size:9.8pt;line-height:1.4}
 .ed[lang=hi] .page{font-size:10.7pt;line-height:1.56}
 p{margin:0 0 2.2mm}
 h2{font-size:15pt;line-height:1.15;color:var(--ind-d);margin:0 0 2.5mm}
@@ -50,24 +50,24 @@ h3{font-size:10.5pt;color:var(--ind-d);margin:0 0 1.6mm;line-height:1.25}
 .rule{height:.8pt;background:var(--line);margin:3mm 0}
 
 /* masthead */
-.mast{display:grid;grid-template-columns:24mm 1fr auto;gap:5mm;align-items:center;border-bottom:2.2pt solid var(--ind);padding-bottom:3.5mm}
+.mast{display:grid;grid-template-columns:24mm 1fr auto;gap:5mm;align-items:center;border-bottom:2.2pt solid var(--ind);padding-bottom:3mm}
 .mast img{width:24mm;height:auto}
 .mast .t1{font-size:27pt;font-weight:700;color:var(--ind-d);line-height:1}
 .mast .t2{font-size:14pt;font-weight:600;color:var(--ind);margin-top:1mm}
 .mast .t3{font-size:8.6pt;color:var(--grn);font-weight:600;margin-top:1.2mm}
 .mast .issue{text-align:right;font-size:8pt;color:var(--mut);line-height:1.45;border-left:.8pt solid var(--line);padding-left:4mm}
 .mast .issue b{color:var(--ink)}
-.theme{margin:4mm 0;background:linear-gradient(100deg,var(--ind-d),var(--ind));color:#fff;border-radius:3mm;padding:4.5mm 6mm;display:grid;grid-template-columns:auto 1fr;gap:6mm;align-items:center}
+.theme{margin:3mm 0;background:linear-gradient(100deg,var(--ind-d),var(--ind));color:#fff;border-radius:3mm;padding:4mm 6mm;display:grid;grid-template-columns:auto 1fr;gap:6mm;align-items:center}
 .theme .tt{font-family:BSans,system-ui,sans-serif;font-weight:700;font-size:17pt;line-height:1.15}
 .theme .tt small{display:block;font-size:12pt;font-weight:600;opacity:.9;margin-top:1mm}
-.theme p{margin:0;font-size:9.8pt;opacity:.95}
+.theme p{margin:0;font-size:9.5pt;opacity:.95}
 .msg h3{font-size:11pt}
-.msg p{font-size:1.04em}
-.ed[lang=hi] .msg p{font-size:1.07em}
 .msg .sig{font-family:BSans,system-ui,sans-serif;margin-top:2.5mm;font-size:9.2pt;line-height:1.35}
 .msg .sig b{display:block;font-size:9.4pt;color:var(--ind-d)}
 .msg{border-top:2pt solid var(--grn);padding-top:2.5mm}
-.inside{display:grid;grid-template-columns:1.1fr 1fr;gap:6mm;margin-top:4mm}
+.inside{margin-top:3mm}
+.toc{margin:2mm 0 0;font-family:BSans,system-ui,sans-serif;font-size:8.8pt;color:var(--mut);line-height:1.45}
+.toc b{color:var(--ind-d)}
 .box{background:var(--tint);border-radius:2.5mm;padding:3.5mm 4.5mm}
 .box.g{background:var(--grn-l)}
 .box.s{background:var(--sun-l)}
@@ -92,9 +92,9 @@ h3{font-size:10.5pt;color:var(--ind-d);margin:0 0 1.6mm;line-height:1.25}
 
 /* page 3 */
 .faq{columns:2;column-gap:7mm}
-.faq .qa{break-inside:avoid;margin-bottom:3mm}
+.faq .qa{break-inside:avoid;margin-bottom:2.3mm}
 .faq .q{font-family:BSans,system-ui,sans-serif;font-weight:700;color:var(--ind-d);margin-bottom:.8mm;font-size:10.6pt;line-height:1.3}
-.dd{display:grid;grid-template-columns:1fr 1fr;gap:5mm;margin-top:3mm}
+.dd{display:grid;grid-template-columns:1fr 1fr;gap:5mm;margin-top:1.5mm}
 .dd .box{padding:3.5mm 4.5mm}
 .dd ul{margin:0;padding:0;list-style:none;font-size:9.6pt}
 .dd li{padding-left:5.5mm;position:relative;margin-bottom:1.3mm;line-height:1.35}
@@ -161,12 +161,12 @@ h3{font-size:10.5pt;color:var(--ind-d);margin:0 0 1.6mm;line-height:1.25}
       <div class="t2">सतर्कता बुलेटिन</div>
       <div class="t3">Vigilance Cell · All India Institute of Medical Sciences, Bhopal</div>
     </div>
-    <div class="issue"><b>Vol. 1 · Issue 1</b><br>October 2026<br>Vigilance Awareness Week<br>26 October – 1 November 2026</div>
+    <div class="issue"><b>October 2026</b><br>Vigilance Awareness Week<br>26 October – 1 November 2026</div>
   </header>
 
   <div class="theme">
     <div class="tt">Probity for Prosperity<small>सत्यनिष्ठा से समृद्धि</small></div>
-    <p>Probity means strict honesty and integrity in public life. This year's theme links it with prosperity: institutions that are fair and transparent use their resources better, earn public trust and serve people better. For a hospital, prosperity means better care for every patient who walks through our gates.</p>
+    <p>Probity means honesty, transparency and integrity in public life. For a hospital, probity ensures better utilisation of available resources to deliver state-of-the-art healthcare for every patient who walks through our gates. This year's theme links probity with prosperity: institutions that are fair and transparent use their resources effectively to serve the country's citizens and thus contribute to the nation's progress and prosperity.</p>
   </div>
 
   <div class="cols2">
@@ -181,31 +181,22 @@ h3{font-size:10.5pt;color:var(--ind-d);margin:0 0 1.6mm;line-height:1.25}
     <article class="msg">
       <div class="kicker">Message</div>
       <h3>From the Chief Vigilance Officer</h3>
-      <p>Vigilance is not only about finding wrongdoing after the event. Its most useful work is preventive: simplifying procedures, using technology, removing unnecessary discretion, and helping colleagues recognise risks before they become problems.</p>
+      <p>Vigilance is not only about investigating wrongdoing and punishing the offender. It is most effective when preventive systems and procedures are put in place so that the risk of any corruption in the institute's activities is mitigated. Key components of preventive vigilance include simplifying procedures, using technology, removing unnecessary discretion, and helping colleagues recognise risks before they become problems.</p>
       <p>In a hospital these risks are close to us – in how we buy medicines and equipment, how we manage stores, how patients get appointments and beds, and how we deal with suppliers and industry. Most lapses begin as small compromises that seem harmless at the time.</p>
-      <p>The Vigilance Cell is here to support, not only to scrutinise. If you see a process that invites misuse, tell us: a systemic fix protects everyone. I invite you to read this bulletin, take the daily quiz, and send us your suggestions.</p>
+      <p>The Vigilance Cell is here to support, not only to scrutinise. If you see a process that invites misuse, tell us: a systemic fix protects everyone.</p>
+      <p>This bulletin is an effort to summarise the key messages of the Central Vigilance Commission's Vigilance Manual (2026) and customise it to the procedural requirements relevant for our institute. I invite you to read this bulletin and send us your suggestions.</p>
       <div class="sig"><b>Prof (Dr) Debasis Biswas</b>Chief Vigilance Officer, AIIMS Bhopal<br>Professor &amp; Head, Microbiology</div>
     </article>
   </div>
 
   <div class="inside">
-    <div class="box">
-      <h3>In this issue</h3>
-      <ol class="list">
-        <li>Preventive vigilance: everyone's job · page 2</li>
-        <li>Where a hospital is most vulnerable · page 2</li>
-        <li>Frequently asked questions · page 3</li>
-        <li>Do's and don'ts for every employee · page 3</li>
-        <li>How to raise a concern safely · page 4</li>
-        <li>Vigilance Awareness Week at AIIMS Bhopal · page 4</li>
-      </ol>
-    </div>
     <div class="box g">
       <h3>About this bulletin</h3>
-      <p style="margin:0">This first issue of the Vigilance Bulletin explains preventive vigilance in plain language, answers questions we are often asked, and tells you how to raise a concern safely. It is meant to be read in ten minutes and kept for reference. Suggestions for future issues are welcome at <b>vigilancecell@aiimsbhopal.edu.in</b>.</p>
+      <p style="margin:0">This bulletin commemorates the celebration of the Vigilance Awareness Week 2026 from 26th October to 1st November 2026. It explains preventive vigilance in plain language, answers frequently asked questions, and tells you how to raise a concern safely. It is meant to be read in ten minutes and kept for reference. Suggestions for future issues are welcome at <b>vigilancecell@aiimsbhopal.edu.in</b>.</p>
+      <p class="toc"><b>Inside:</b> Preventive vigilance: everyone's job (p. 2) · Where a hospital is most vulnerable (p. 2) · Frequently asked questions (p. 3) · Do's and don'ts (p. 3) · How to raise a concern (p. 4) · Vigilance Awareness Week at AIIMS Bhopal (p. 4)</p>
     </div>
   </div>
-  <footer class="pfoot"><span>Vigilance Bulletin · Vol. 1, Issue 1 · October 2026</span><span>1 / 4</span></footer>
+  <footer class="pfoot"><span>Vigilance Bulletin · October 2026</span><span>1 / 4</span></footer>
 </section>
 
 <section class="page">
@@ -214,7 +205,7 @@ h3{font-size:10.5pt;color:var(--ind-d);margin:0 0 1.6mm;line-height:1.25}
   <p class="lead">When people hear "vigilance", they often think of inquiries and penalties. That is only one part of the picture, and not the most important one.</p>
   <div class="feature">
     <div>
-      <p>The Central Vigilance Commission's Vigilance Manual describes preventive vigilance as a package of measures to improve systems and procedures, reduce opportunities for corruption and promote transparency. Its starting point is that corruption is usually a failure of systems, controls and organisational culture – not only of one dishonest individual.</p>
+      <p>The Central Vigilance Commission's Vigilance Manual describes preventive vigilance as a package of measures to improve systems and procedures, reduce opportunities for corruption and promote transparency. Its basic premise is that corruption is usually a failure of systems, controls and organisational culture – not only of one dishonest individual.</p>
       <p>That changes who is responsible. Implementing preventive vigilance is the duty of the management as a whole, and in fact of every official, not just of the vigilance department. Every supervisory officer is expected to ensure the integrity of the people working under them.</p>
       <p>What does this look like in practice? The Manual returns to a few simple ideas:</p>
       <ul class="ideas">
@@ -229,10 +220,11 @@ h3{font-size:10.5pt;color:var(--ind-d);margin:0 0 1.6mm;line-height:1.25}
     </div>
     <aside>
       <div class="box">
-        <h3>Three faces of vigilance</h3>
+        <h3>Multiple faces of vigilance</h3>
         <div class="faces">
           <div><b>Punitive</b>Investigating misconduct and taking disciplinary or legal action once it has happened.</div>
           <div><b>Preventive</b>Improving systems so that misconduct is harder to commit and easier to detect.</div>
+          <div><b>Surveillance and detection</b>Keeping watch on sensitive areas through inspections, surprise checks, scrutiny of records and audit, so that irregularities are caught early.</div>
           <div style="margin:0"><b>Participative</b>Involving employees and citizens through awareness, the integrity pledge and safe channels to report.</div>
         </div>
       </div>
@@ -256,7 +248,7 @@ h3{font-size:10.5pt;color:var(--ind-d);margin:0 0 1.6mm;line-height:1.25}
     <li>Dealings with pharmaceutical and device companies</li>
     <li>Certificates, medical records and reports</li>
   </ul>
-  <footer class="pfoot"><span>Vigilance Bulletin · Vol. 1, Issue 1 · October 2026</span><span>2 / 4</span></footer>
+  <footer class="pfoot"><span>Vigilance Bulletin · October 2026</span><span>2 / 4</span></footer>
 </section>
 
 <section class="page">
@@ -268,8 +260,9 @@ h3{font-size:10.5pt;color:var(--ind-d);margin:0 0 1.6mm;line-height:1.25}
     <div class="qa"><div class="q">Is giving a bribe also an offence?</div><p>Yes. Since the 2018 amendment to the Prevention of Corruption Act, giving or offering a bribe is a specific offence, not only taking one. A person who is compelled to give a bribe and reports it to the law enforcement authorities within seven days is protected.</p></div>
     <div class="qa"><div class="q">Can I accept a gift?</div><p>Do not accept any gift, hospitality or favour from anyone who has, or may have, official dealings with you: suppliers, contractors, bidders, pharmaceutical or device companies, or patients seeking a favour. For gifts on family occasions, the Conduct Rules require you to report those above the prescribed limits. When in doubt, decline politely.</p></div>
     <div class="qa"><div class="q">What is a conflict of interest, and what should I do?</div><p>It arises when your personal interest, or that of a relative or friend, could affect an official decision. Declare it in writing to the competent authority and step away from that decision. An undeclared conflict is a problem even if the decision itself was fair.</p></div>
+    <div class="qa"><div class="q">What should I do if someone offers me a bribe?</div><p>Decline clearly and do not agree to "discuss it later". Note the date, time, person and what was offered, and report it promptly to your controlling officer or the Vigilance Cell. Reporting early protects you and helps stop the practice.</p></div>
     <div class="qa"><div class="q">Can I complain anonymously?</div><p>The Central Vigilance Commission does not act on anonymous or pseudonymous complaints. If you fear reprisal, use the whistle-blower route under the PIDPI Resolution (see page 4): your identity is kept confidential by the Commission.</p></div>
-    <div class="qa"><div class="q">What is an Integrity Pact?</div><p>It is a written agreement between the organisation and all bidders in a tender that neither side will indulge in bribery, collusion or bid rigging. Its implementation is overseen by Independent External Monitors, and the Central Vigilance Commission is the nodal authority for it.</p></div>
+    <div class="qa"><div class="q">What key precautions must be taken during public procurement?</div><p>Officials procuring life-saving drugs, consumables, instruments, or awarding hospital infrastructure contracts must strictly follow standard procedures ensuring fair competition. Technical specifications must never be tailored to favour specific vendors. Accurate record-keeping, site inspections, and physical verification of delivered medical supplies are mandatory. Personnel in sensitive roles, such as storekeepers and purchase officers, must undergo periodic rotational transfers.</p></div>
     <div class="qa"><div class="q">Will raising a concern get me into trouble?</div><p>Genuine concerns raised in good faith through proper channels are welcome. Make your complaint specific and verifiable. Deliberately false or malicious complaints are themselves misconduct.</p></div>
   </div>
   <div class="dd">
@@ -300,7 +293,7 @@ h3{font-size:10.5pt;color:var(--ind-d);margin:0 0 1.6mm;line-height:1.25}
       </ul>
     </div>
   </div>
-  <footer class="pfoot"><span>Vigilance Bulletin · Vol. 1, Issue 1 · October 2026</span><span>3 / 4</span></footer>
+  <footer class="pfoot"><span>Vigilance Bulletin · October 2026</span><span>3 / 4</span></footer>
 </section>
 
 <section class="page">
@@ -354,7 +347,7 @@ h3{font-size:10.5pt;color:var(--ind-d);margin:0 0 1.6mm;line-height:1.25}
     <div><b>Patron:</b> Lt Gen (Dr) Narendra Kotwal, AVSM, SM, VSM (Retd), Executive Director<br><b>Chief Vigilance Officer:</b> Prof (Dr) Debasis Biswas<br><b>Prepared by:</b> Vigilance Cell, AIIMS Bhopal, with AI assistance (Claude, Anthropic)</div>
     <div>Published by the Vigilance Cell, AIIMS Bhopal · vigilancecell@aiimsbhopal.edu.in<br>This bulletin is for awareness. For authoritative provisions, refer to the CVC Vigilance Manual 2026 and the rules that apply to you.</div>
   </div>
-  <footer class="pfoot"><span>Vigilance Bulletin · Vol. 1, Issue 1 · October 2026</span><span>4 / 4</span></footer>
+  <footer class="pfoot"><span>Vigilance Bulletin · October 2026</span><span>4 / 4</span></footer>
 </section>
 </div>
 
@@ -369,12 +362,12 @@ h3{font-size:10.5pt;color:var(--ind-d);margin:0 0 1.6mm;line-height:1.25}
       <div class="t2">Vigilance Bulletin</div>
       <div class="t3">सतर्कता प्रकोष्ठ · अखिल भारतीय आयुर्विज्ञान संस्थान, भोपाल</div>
     </div>
-    <div class="issue"><b>खंड 1 · अंक 1</b><br>अक्टूबर 2026<br>सतर्कता जागरूकता सप्ताह<br>26 अक्टूबर – 1 नवंबर 2026</div>
+    <div class="issue"><b>अक्टूबर 2026</b><br>सतर्कता जागरूकता सप्ताह<br>26 अक्टूबर – 1 नवंबर 2026</div>
   </header>
 
   <div class="theme">
     <div class="tt">सत्यनिष्ठा से समृद्धि<small>Probity for Prosperity</small></div>
-    <p>सत्यनिष्ठा का अर्थ है सार्वजनिक जीवन में पूर्ण ईमानदारी और निष्ठा। इस वर्ष का विषय इसे समृद्धि से जोड़ता है: निष्पक्ष और पारदर्शी संस्थान अपने संसाधनों का बेहतर उपयोग करते हैं, जनता का विश्वास अर्जित करते हैं और लोगों की बेहतर सेवा करते हैं। किसी अस्पताल के लिए समृद्धि का अर्थ है हमारे द्वार पर आने वाले प्रत्येक मरीज़ की बेहतर देखभाल।</p>
+    <p>सत्यनिष्ठा का अर्थ है सार्वजनिक जीवन में ईमानदारी, पारदर्शिता और निष्ठा। किसी अस्पताल के लिए सत्यनिष्ठा उपलब्ध संसाधनों का बेहतर उपयोग सुनिश्चित करती है, ताकि हमारे द्वार पर आने वाले प्रत्येक मरीज़ को अत्याधुनिक स्वास्थ्य सेवा मिल सके। इस वर्ष का विषय सत्यनिष्ठा को समृद्धि से जोड़ता है: निष्पक्ष और पारदर्शी संस्थान देश के नागरिकों की सेवा के लिए अपने संसाधनों का प्रभावी उपयोग करते हैं और इस प्रकार राष्ट्र की प्रगति और समृद्धि में योगदान देते हैं।</p>
   </div>
 
   <div class="cols2">
@@ -389,31 +382,22 @@ h3{font-size:10.5pt;color:var(--ind-d);margin:0 0 1.6mm;line-height:1.25}
     <article class="msg">
       <div class="kicker">संदेश</div>
       <h3>मुख्य सतर्कता अधिकारी की ओर से</h3>
-      <p>सतर्कता का अर्थ केवल घटना के बाद गड़बड़ी का पता लगाना नहीं है। इसका सबसे उपयोगी कार्य निवारक है: प्रक्रियाओं को सरल बनाना, तकनीक का उपयोग करना, अनावश्यक विवेकाधिकार को हटाना, और सहकर्मियों को जोखिमों को समस्या बनने से पहले पहचानने में सहायता करना।</p>
+      <p>सतर्कता का अर्थ केवल गड़बड़ी की जाँच करना और दोषी को दंडित करना नहीं है। यह सबसे प्रभावी तब होती है जब ऐसी निवारक प्रणालियाँ और प्रक्रियाएँ स्थापित की जाएँ जिनसे संस्थान की गतिविधियों में भ्रष्टाचार का जोखिम कम हो। निवारक सतर्कता के प्रमुख घटक हैं: प्रक्रियाओं को सरल बनाना, तकनीक का उपयोग करना, अनावश्यक विवेकाधिकार को हटाना, और सहकर्मियों को जोखिमों को समस्या बनने से पहले पहचानने में सहायता करना।</p>
       <p>अस्पताल में ये जोखिम हमारे बहुत निकट हैं – दवाओं और उपकरणों की खरीद में, भंडार प्रबंधन में, मरीज़ों को अपॉइंटमेंट और बिस्तर मिलने में, और आपूर्तिकर्ताओं व उद्योग के साथ व्यवहार में। अधिकांश चूकें छोटे-छोटे समझौतों से शुरू होती हैं, जो उस समय हानिरहित लगते हैं।</p>
-      <p>सतर्कता प्रकोष्ठ केवल जाँच के लिए नहीं, सहयोग के लिए भी है। यदि आपको कोई ऐसी प्रक्रिया दिखे जो दुरुपयोग को आमंत्रित करती है, तो हमें बताएँ: प्रणालीगत सुधार सभी की रक्षा करता है। आप यह बुलेटिन पढ़ें, दैनिक प्रश्नोत्तरी में भाग लें और अपने सुझाव हमें भेजें।</p>
+      <p>सतर्कता प्रकोष्ठ केवल जाँच के लिए नहीं, सहयोग के लिए भी है। यदि आपको कोई ऐसी प्रक्रिया दिखे जो दुरुपयोग को आमंत्रित करती है, तो हमें बताएँ: प्रणालीगत सुधार सभी की रक्षा करता है।</p>
+      <p>यह बुलेटिन केंद्रीय सतर्कता आयोग की सतर्कता नियमावली (2026) के प्रमुख संदेशों का सार प्रस्तुत करने और उन्हें हमारे संस्थान की प्रक्रियागत आवश्यकताओं के अनुरूप ढालने का एक प्रयास है। मैं आपको यह बुलेटिन पढ़ने और अपने सुझाव हमें भेजने के लिए आमंत्रित करता हूँ।</p>
       <div class="sig"><b>प्रो. (डॉ.) देबाशीष बिस्वास</b>मुख्य सतर्कता अधिकारी, एम्स भोपाल<br>प्रोफ़ेसर एवं विभागाध्यक्ष, सूक्ष्मजीव विज्ञान</div>
     </article>
   </div>
 
   <div class="inside">
-    <div class="box">
-      <h3>इस अंक में</h3>
-      <ol class="list">
-        <li>निवारक सतर्कता: सबकी ज़िम्मेदारी · पृष्ठ 2</li>
-        <li>अस्पताल के सबसे संवेदनशील क्षेत्र · पृष्ठ 2</li>
-        <li>अक्सर पूछे जाने वाले प्रश्न · पृष्ठ 3</li>
-        <li>प्रत्येक कर्मचारी के लिए क्या करें, क्या न करें · पृष्ठ 3</li>
-        <li>सुरक्षित रूप से शिकायत कैसे करें · पृष्ठ 4</li>
-        <li>एम्स भोपाल में सतर्कता जागरूकता सप्ताह · पृष्ठ 4</li>
-      </ol>
-    </div>
     <div class="box g">
       <h3>इस बुलेटिन के बारे में</h3>
-      <p style="margin:0">सतर्कता बुलेटिन का यह पहला अंक निवारक सतर्कता को सरल भाषा में समझाता है, अक्सर पूछे जाने वाले प्रश्नों के उत्तर देता है, और बताता है कि सुरक्षित रूप से शिकायत कैसे करें। इसे दस मिनट में पढ़ा जा सकता है और संदर्भ के लिए रखा जा सकता है। आगामी अंकों के लिए आपके सुझाव <b>vigilancecell@aiimsbhopal.edu.in</b> पर आमंत्रित हैं।</p>
+      <p style="margin:0">यह बुलेटिन 26 अक्टूबर से 1 नवंबर 2026 तक मनाए जा रहे सतर्कता जागरूकता सप्ताह 2026 के उपलक्ष्य में प्रकाशित किया गया है। यह निवारक सतर्कता को सरल भाषा में समझाता है, अक्सर पूछे जाने वाले प्रश्नों के उत्तर देता है, और बताता है कि सुरक्षित रूप से शिकायत कैसे करें। इसे दस मिनट में पढ़ा जा सकता है और संदर्भ के लिए रखा जा सकता है। आगामी अंकों के लिए आपके सुझाव <b>vigilancecell@aiimsbhopal.edu.in</b> पर आमंत्रित हैं।</p>
+      <p class="toc"><b>इस अंक में:</b> निवारक सतर्कता: सबकी ज़िम्मेदारी (पृ. 2) · अस्पताल के सबसे संवेदनशील क्षेत्र (पृ. 2) · अक्सर पूछे जाने वाले प्रश्न (पृ. 3) · क्या करें, क्या न करें (पृ. 3) · शिकायत कैसे करें (पृ. 4) · एम्स भोपाल में सतर्कता जागरूकता सप्ताह (पृ. 4)</p>
     </div>
   </div>
-  <footer class="pfoot"><span>सतर्कता बुलेटिन · खंड 1, अंक 1 · अक्टूबर 2026</span><span>1 / 4</span></footer>
+  <footer class="pfoot"><span>सतर्कता बुलेटिन · अक्टूबर 2026</span><span>1 / 4</span></footer>
 </section>
 
 <section class="page">
@@ -422,7 +406,7 @@ h3{font-size:10.5pt;color:var(--ind-d);margin:0 0 1.6mm;line-height:1.25}
   <p class="lead">"सतर्कता" शब्द सुनते ही प्रायः जाँच और दंड का विचार आता है। पर यह पूरी तस्वीर का केवल एक हिस्सा है, और सबसे महत्वपूर्ण हिस्सा भी नहीं।</p>
   <div class="feature">
     <div>
-      <p>केंद्रीय सतर्कता आयोग की सतर्कता नियमावली निवारक सतर्कता को ऐसे उपायों का समूह बताती है जो प्रणालियों और प्रक्रियाओं में सुधार करते हैं, भ्रष्टाचार के अवसर घटाते हैं और पारदर्शिता को बढ़ावा देते हैं। इसका मूल विचार यह है कि भ्रष्टाचार प्रायः प्रणाली, नियंत्रण और संगठनात्मक संस्कृति की विफलता होता है – केवल किसी एक बेईमान व्यक्ति की नहीं।</p>
+      <p>केंद्रीय सतर्कता आयोग की सतर्कता नियमावली निवारक सतर्कता को ऐसे उपायों का समूह बताती है जो प्रणालियों और प्रक्रियाओं में सुधार करते हैं, भ्रष्टाचार के अवसर घटाते हैं और पारदर्शिता को बढ़ावा देते हैं। इसका मूल आधार यह है कि भ्रष्टाचार प्रायः प्रणाली, नियंत्रण और संगठनात्मक संस्कृति की विफलता होता है – केवल किसी एक बेईमान व्यक्ति की नहीं।</p>
       <p>इससे ज़िम्मेदारी भी बदल जाती है। निवारक सतर्कता लागू करना केवल सतर्कता विभाग का नहीं, बल्कि समग्र प्रबंधन का, और वस्तुतः प्रत्येक अधिकारी-कर्मचारी का दायित्व है। प्रत्येक पर्यवेक्षी अधिकारी से अपेक्षा है कि वह अपने अधीन कार्यरत कर्मियों की सत्यनिष्ठा सुनिश्चित करे।</p>
       <p>व्यवहार में इसका क्या अर्थ है? नियमावली कुछ सरल विचारों पर बार-बार ज़ोर देती है:</p>
       <ul class="ideas">
@@ -437,10 +421,11 @@ h3{font-size:10.5pt;color:var(--ind-d);margin:0 0 1.6mm;line-height:1.25}
     </div>
     <aside>
       <div class="box">
-        <h3>सतर्कता के तीन रूप</h3>
+        <h3>सतर्कता के विविध रूप</h3>
         <div class="faces">
           <div><b>दंडात्मक</b>कदाचार होने के बाद उसकी जाँच और अनुशासनात्मक या कानूनी कार्रवाई।</div>
           <div><b>निवारक</b>प्रणालियों में ऐसा सुधार जिससे कदाचार करना कठिन और पकड़ना आसान हो।</div>
+          <div><b>निगरानी एवं पहचान</b>निरीक्षण, औचक जाँच, अभिलेखों की संवीक्षा और लेखा-परीक्षा द्वारा संवेदनशील क्षेत्रों पर नज़र रखना, ताकि अनियमितताएँ जल्दी पकड़ी जा सकें।</div>
           <div style="margin:0"><b>सहभागी</b>जागरूकता, सत्यनिष्ठा प्रतिज्ञा और सुरक्षित शिकायत माध्यमों द्वारा कर्मचारियों और नागरिकों की भागीदारी।</div>
         </div>
       </div>
@@ -464,7 +449,7 @@ h3{font-size:10.5pt;color:var(--ind-d);margin:0 0 1.6mm;line-height:1.25}
     <li>औषधि और उपकरण कंपनियों के साथ व्यवहार</li>
     <li>प्रमाण-पत्र, चिकित्सा अभिलेख और रिपोर्ट</li>
   </ul>
-  <footer class="pfoot"><span>सतर्कता बुलेटिन · खंड 1, अंक 1 · अक्टूबर 2026</span><span>2 / 4</span></footer>
+  <footer class="pfoot"><span>सतर्कता बुलेटिन · अक्टूबर 2026</span><span>2 / 4</span></footer>
 </section>
 
 <section class="page">
@@ -476,8 +461,9 @@ h3{font-size:10.5pt;color:var(--ind-d);margin:0 0 1.6mm;line-height:1.25}
     <div class="qa"><div class="q">क्या रिश्वत देना भी अपराध है?</div><p>हाँ। भ्रष्टाचार निवारण अधिनियम में 2018 के संशोधन के बाद से रिश्वत देना या देने की पेशकश करना भी एक विशिष्ट अपराध है, केवल रिश्वत लेना ही नहीं। जिस व्यक्ति को रिश्वत देने के लिए विवश किया गया हो और जो सात दिनों के भीतर विधि प्रवर्तन अधिकारियों को सूचित कर दे, वह संरक्षित है।</p></div>
     <div class="qa"><div class="q">क्या मैं उपहार स्वीकार कर सकता/सकती हूँ?</div><p>ऐसे किसी भी व्यक्ति से उपहार, आतिथ्य या उपकार स्वीकार न करें जिसका आपसे आधिकारिक व्यवहार है या हो सकता है: आपूर्तिकर्ता, ठेकेदार, बोलीदाता, औषधि या उपकरण कंपनियाँ, या उपकार चाहने वाले मरीज़। पारिवारिक अवसरों पर मिले उपहारों के लिए आचरण नियमों के अनुसार निर्धारित सीमा से अधिक मूल्य के उपहारों की सूचना देनी होती है। संदेह हो तो विनम्रता से मना करें।</p></div>
     <div class="qa"><div class="q">हितों का टकराव क्या है, और मुझे क्या करना चाहिए?</div><p>यह तब होता है जब आपका, या आपके किसी संबंधी या मित्र का निजी हित किसी आधिकारिक निर्णय को प्रभावित कर सकता हो। सक्षम प्राधिकारी को लिखित में इसकी घोषणा करें और उस निर्णय से स्वयं को अलग कर लें। अघोषित टकराव समस्या है, भले ही निर्णय निष्पक्ष रहा हो।</p></div>
+    <div class="qa"><div class="q">यदि कोई मुझे रिश्वत की पेशकश करे तो मुझे क्या करना चाहिए?</div><p>स्पष्ट रूप से मना करें और "बाद में बात करने" पर सहमत न हों। तारीख, समय, व्यक्ति और की गई पेशकश का विवरण नोट करें, और तुरंत अपने नियंत्रक अधिकारी या सतर्कता प्रकोष्ठ को सूचित करें। समय पर सूचना देने से आपकी रक्षा होती है और इस प्रवृत्ति पर रोक लगती है।</p></div>
     <div class="qa"><div class="q">क्या मैं गुमनाम शिकायत कर सकता/सकती हूँ?</div><p>केंद्रीय सतर्कता आयोग गुमनाम या छद्म नाम वाली शिकायतों पर कार्रवाई नहीं करता। यदि आपको प्रतिशोध का भय है, तो PIDPI संकल्प के अंतर्गत व्हिसल ब्लोअर माध्यम का उपयोग करें (पृष्ठ 4 देखें): आयोग आपकी पहचान गोपनीय रखता है।</p></div>
-    <div class="qa"><div class="q">सत्यनिष्ठा समझौता (इंटेग्रिटी पैक्ट) क्या है?</div><p>यह संगठन और किसी निविदा के सभी बोलीदाताओं के बीच लिखित समझौता है कि कोई भी पक्ष रिश्वत, मिलीभगत या बोली में हेराफेरी नहीं करेगा। इसके कार्यान्वयन की निगरानी स्वतंत्र बाहरी मॉनिटर करते हैं, और केंद्रीय सतर्कता आयोग इसका नोडल प्राधिकरण है।</p></div>
+    <div class="qa"><div class="q">सार्वजनिक खरीद के दौरान कौन-सी प्रमुख सावधानियाँ आवश्यक हैं?</div><p>जीवन-रक्षक दवाएँ, उपभोग्य सामग्री या उपकरण खरीदने वाले, अथवा अस्पताल के अवसंरचना संबंधी अनुबंध देने वाले अधिकारियों को निष्पक्ष प्रतिस्पर्धा सुनिश्चित करने वाली मानक प्रक्रियाओं का कड़ाई से पालन करना चाहिए। तकनीकी विनिर्देश कभी भी किसी विशेष विक्रेता के पक्ष में तैयार नहीं किए जाने चाहिए। सटीक अभिलेख रखना, स्थल निरीक्षण और आपूर्ति की गई चिकित्सा सामग्री का भौतिक सत्यापन अनिवार्य है। भंडारपाल और क्रय अधिकारी जैसे संवेदनशील पदों पर कार्यरत कर्मियों का समय-समय पर रोटेशनल स्थानांतरण होना चाहिए।</p></div>
     <div class="qa"><div class="q">क्या शिकायत करने से मैं मुसीबत में पड़ूँगा/पड़ूँगी?</div><p>उचित माध्यम से सद्भावना में उठाई गई वास्तविक चिंताओं का स्वागत है। अपनी शिकायत विशिष्ट और सत्यापन योग्य रखें। जानबूझकर की गई झूठी या दुर्भावनापूर्ण शिकायत स्वयं कदाचार है।</p></div>
   </div>
   <div class="dd">
@@ -508,7 +494,7 @@ h3{font-size:10.5pt;color:var(--ind-d);margin:0 0 1.6mm;line-height:1.25}
       </ul>
     </div>
   </div>
-  <footer class="pfoot"><span>सतर्कता बुलेटिन · खंड 1, अंक 1 · अक्टूबर 2026</span><span>3 / 4</span></footer>
+  <footer class="pfoot"><span>सतर्कता बुलेटिन · अक्टूबर 2026</span><span>3 / 4</span></footer>
 </section>
 
 <section class="page">
@@ -562,7 +548,7 @@ h3{font-size:10.5pt;color:var(--ind-d);margin:0 0 1.6mm;line-height:1.25}
     <div><b>संरक्षक:</b> लेफ्टिनेंट जनरल (डॉ) नरेन्द्र कोतवाल, AVSM, SM, VSM (Retd), कार्यपालक निदेशक<br><b>मुख्य सतर्कता अधिकारी:</b> प्रो. (डॉ.) देबाशीष बिस्वास<br><b>तैयारकर्ता:</b> सतर्कता प्रकोष्ठ, एम्स भोपाल, एआई सहायता (Claude, Anthropic) के साथ</div>
     <div>प्रकाशक: सतर्कता प्रकोष्ठ, एम्स भोपाल · vigilancecell@aiimsbhopal.edu.in<br>यह बुलेटिन जागरूकता के लिए है। प्रामाणिक प्रावधानों के लिए सीवीसी सतर्कता नियमावली 2026 और आप पर लागू नियम देखें।</div>
   </div>
-  <footer class="pfoot"><span>सतर्कता बुलेटिन · खंड 1, अंक 1 · अक्टूबर 2026</span><span>4 / 4</span></footer>
+  <footer class="pfoot"><span>सतर्कता बुलेटिन · अक्टूबर 2026</span><span>4 / 4</span></footer>
 </section>
 </div>
 
